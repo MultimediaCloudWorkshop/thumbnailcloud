@@ -28,7 +28,7 @@
 ### 使用
 
 - URL
-  - http://multimediacloud.elasticbeanstalk.com/api/image/thumbnail
+  - http://multimediaapi.elasticbeanstalk.com/image/thumbnail
   - GET 方法
 - 参数
   - url: 图像URL   
