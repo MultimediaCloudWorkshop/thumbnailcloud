@@ -2,13 +2,12 @@
 
 发送图像URL 返回缩略图
 
-### 特点
-
-- 简单
-  - 发送GET请求
-  - 返回缩略图文件
-- 实时
-  - 即请求即获得
+### 特点  
+- 简单  
+  - 发送GET请求  
+  - 返回缩略图文件  
+- 实时  
+  - 即请求即获得  
 - 多种缩略图模式  
   - 限定宽度，等比例缩放
   - 限定高度，等比例缩放
@@ -26,7 +25,6 @@
   - 不存储图像和缩略图
 
 ### 使用
-
 - URL
   - http://multimediaapi.elasticbeanstalk.com/image/thumbnail
   - GET 方法
@@ -37,7 +35,7 @@
   - crop: 裁剪方式 （可选）  
     - Center: 居中裁剪
     - North: 从顶部裁剪
-  - apikey: API key (请发送邮件到 thumbnailcloud@gmail.com，免费申请)
+  - apikey: API key (请发送邮件到 multimediacloudworkshop@gmail.com，免费申请)
 - 返回
   - 成功，返回缩略图文件
   - 失败，返回JSON格式错误信息
@@ -48,6 +46,8 @@
   - 缩略图格式(Content-Type)与图像格式一致  
 
 ### 价格  
-
 - 当前**免费试用**  
 - 将来按照请求次数收费  
+
+### 联系  
+- 邮件：multimediacloudworkshop@gmail.com  
