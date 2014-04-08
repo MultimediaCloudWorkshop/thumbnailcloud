@@ -1,6 +1,7 @@
-# 图像缩略图云  Image Thumbnail Cloud
+# 图像缩略图云
+（试运营）  
 
-发送图像URL 返回缩略图  
+——发送图像URL，返回缩略图。    
 
 ### 特点  
 - 简单  
@@ -15,14 +16,15 @@
   - 限定宽度和高度，居中裁剪
   - 限定宽度和高度，从顶部裁剪
 - 稳定
-  - Auto Scaling & Load Balance (试用期暂不提供) 
+  - Auto Scaling & Load Balance (试运营期间暂不提供) 
   - AWS Cloud Native
   - GraphicsMagick Core
   - 图像和缩略图双层缓存
   - Open Source
-- 专注
-  - 只创建缩略图
-  - 不存储图像和缩略图
+- 价廉  
+  - 仅根据请求次数收费，无其他收费
+  - 每次请求1分钱
+  - 当前免费试用
 
 ### 使用
 - URL
@@ -41,14 +43,15 @@
   - 失败，返回JSON格式错误信息
 - 注意  
   - 图像URL需进行URL编码  
-  - 参数width和height不能同时缺失  
+  - 参数width和height不能同时缺省  
   - 参数apikey必须为有效的API Key   
   - 缩略图格式(Content-Type)与图像格式一致  
 
 ### 价格  
-- **当前免费试用**  
-- ~~0.01元RMB/请求~~  
+- 当前试运营：**免费**  
+- 正式运营：0.01元RMB/请求  
 
 ### 联系  
 - 邮件：multimediacloudworkshop@gmail.com  
-- 如果您有特殊的需求，欢迎联系我们。  
+- 如果您需要缩略图私有云，欢迎联系我们
+- 如果您有其他需求，欢迎联系我们  
