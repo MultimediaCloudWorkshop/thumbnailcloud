@@ -48,6 +48,13 @@
   - 参数apikey必须为有效的API Key   
   - 缩略图格式(Content-Type)与图像格式一致  
 
+### 示例  
+- 图像URL：http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg  
+- 已编码的图像URL：http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg  
+- 缩略图：宽100像素，高100像素，居中裁剪 
+- 请求URL：http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey
+- 用你的API Key替换掉上面请求中的 YourAPIKey
+
 ### 价格  
 - 当前试运营：免费  
 - 正式运营：0.01元RMB/请求  
