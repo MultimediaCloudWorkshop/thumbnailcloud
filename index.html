@@ -79,7 +79,7 @@
 </ul>
 </li>
 </ul><h3>
-<a name="%E4%BD%BF%E7%94%A8" class="anchor" href="#%E4%BD%BF%E7%94%A8"><span class="octicon octicon-link"></span></a>使用</h3>
+<a name="api" class="anchor" href="#api"><span class="octicon octicon-link"></span></a>API</h3>
 
 <ul>
 <li>URL
@@ -94,9 +94,9 @@
 <ul>
 <li>url: 图像URL<br>
 </li>
-<li>width: 缩略图宽度 （可选）<br>
+<li>width: 缩略图宽度，单位像素 （可选）<br>
 </li>
-<li>height: 缩略图高度 （可选）<br>
+<li>height: 缩略图高度，单位像素 （可选）<br>
 </li>
 <li>crop: 裁剪方式 （可选）<br><ul>
 <li>Center: 居中裁剪</li>
@@ -122,6 +122,34 @@
 </li>
 <li>缩略图格式(Content-Type)与图像格式一致<br>
 </li>
+</ul>
+</li>
+</ul><h3>
+<a name="%E7%A4%BA%E4%BE%8B" class="anchor" href="#%E7%A4%BA%E4%BE%8B"><span class="octicon octicon-link"></span></a>示例</h3>
+
+<ul>
+<li>图像
+
+<ul>
+<li>URL: <a href="http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg">http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg</a><br>
+</li>
+<li>编码后：http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg<br>
+</li>
+</ul>
+</li>
+<li>缩略图参数
+
+<ul>
+<li>宽100像素</li>
+<li>高100像素</li>
+<li>居中裁剪 </li>
+</ul>
+</li>
+<li>请求URL
+
+<ul>
+<li><a href="http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&amp;width=100&amp;height=100&amp;crop=Center&amp;apikey=YourAPIKey">http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&amp;width=100&amp;height=100&amp;crop=Center&amp;apikey=YourAPIKey</a></li>
+<li>用你的有效的API Key替换掉上面请求中的 YourAPIKey</li>
 </ul>
 </li>
 </ul><h3>
