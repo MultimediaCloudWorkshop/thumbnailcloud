@@ -29,7 +29,7 @@
 
 ### API  
 - URL
-  - http://multimediaapi.elasticbeanstalk.com/image/thumbnail
+  - [http://multimediaapi.elasticbeanstalk.com/image/thumbnail](http://multimediaapi.elasticbeanstalk.com/image/thumbnail)  
   - GET 方法
 - 参数
   - url: 图像URL   
@@ -50,14 +50,14 @@
 
 ### 示例  
 - 图像
-  - URL: http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg  
+  - URL: [http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg](http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg)  
   - 编码后：http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg  
 - 缩略图参数
   - 宽100像素
   - 高100像素
   - 居中裁剪 
 - 请求URL
-  - http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey
+  - [http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey](http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey)  
   - 用你的有效的API Key替换掉上面请求中的 YourAPIKey
 
 ### 价格  
@@ -66,6 +66,7 @@
 
 ### 联系  
 - 邮件：multimediacloudworkshop@gmail.com  
+- QQ: 2379027757  
 - 如果您需要缩略图私有云，欢迎联系我们
 - 如果您有其他需求，欢迎联系我们  
 
