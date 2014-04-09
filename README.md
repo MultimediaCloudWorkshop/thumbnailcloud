@@ -27,7 +27,7 @@
   - 每次请求1分钱
   - 当前免费试用
 
-### 使用
+### API  
 - URL
   - http://multimediaapi.elasticbeanstalk.com/image/thumbnail
   - GET 方法
