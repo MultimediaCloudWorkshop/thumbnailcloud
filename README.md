@@ -33,8 +33,8 @@
   - GET 方法
 - 参数
   - url: 图像URL   
-  - width: 缩略图宽度 （可选）  
-  - height: 缩略图高度 （可选）  
+  - width: 缩略图宽度，单位像素 （可选）  
+  - height: 缩略图高度，单位像素 （可选）  
   - crop: 裁剪方式 （可选）  
     - Center: 居中裁剪
     - North: 从顶部裁剪
@@ -49,11 +49,16 @@
   - 缩略图格式(Content-Type)与图像格式一致  
 
 ### 示例  
-- 图像URL：http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg  
-- 已编码的图像URL：http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg  
-- 缩略图：宽100像素，高100像素，居中裁剪 
-- 请求URL：http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey
-- 用你的API Key替换掉上面请求中的 YourAPIKey
+- 图像
+  - URL: http://upload.wikimedia.org/wikipedia/commons/6/6b/SelbstPortrait_VG2.jpg  
+  - 编码后：http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg  
+- 缩略图参数
+  - 宽100像素
+  - 高100像素
+  - 居中裁剪 
+- 请求URL
+  - http://multimediaapi.elasticbeanstalk.com/image/thumbnail?url=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6b%2FSelbstPortrait_VG2.jpg&width=100&height=100&crop=Center&apikey=YourAPIKey
+  - 用你的有效的API Key替换掉上面请求中的 YourAPIKey
 
 ### 价格  
 - 当前试运营：免费  
